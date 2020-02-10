@@ -25,8 +25,5 @@ public class Methodlar {
 		
 		faktoriyel();
 		faktoriyel();
-	
-		
-		
  }
 }

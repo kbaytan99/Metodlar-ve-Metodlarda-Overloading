@@ -1,0 +1,30 @@
+package deneme;
+import java.util.Scanner;
+public class Methodlar {
+	public static void selamla() {
+		System.out.println("Selamin Aleykum....");
+		
+	}
+	public static void faktoriyel() {
+		Scanner scanner = new Scanner(System.in);
+	
+		System.out.println("Bir Sayi GIr Usak");
+		int sayi = scanner.nextInt();
+		
+		int faktoriyel = 1;
+		
+		while(sayi > 0) {
+			faktoriyel *= sayi;
+			sayi--;
+			
+		}
+		System.out.println("Faktoriyel: " + faktoriyel);
+		
+	}
+	public static void main(String[] args) {
+		
+		faktoriyel();
+		faktoriyel();
+	
+ }
+}

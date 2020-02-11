@@ -17,5 +17,6 @@ public class Metodlarda_Parametre_Kullanimi {
 		selamlama(isim);
 		
 	}
+	
 
 }
